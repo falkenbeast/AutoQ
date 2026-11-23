@@ -1,0 +1,59 @@
+{
+    "dataset_name": "AI4I 2020 Manufacturing Quality Benchmark",
+    "train_samples": 8000,
+    "test_samples": 2000,
+    "split_ratio": "80/20 Stratified",
+    "random_state": 42,
+    "input_features": [
+        "air_temperature",
+        "process_temperature",
+        "rotational_speed",
+        "torque",
+        "tool_wear",
+        "temp_difference",
+        "mechanical_power",
+        "overstrain_index",
+        "component_type"
+    ],
+    "numerical_features": [
+        "air_temperature",
+        "process_temperature",
+        "rotational_speed",
+        "torque",
+        "tool_wear",
+        "temp_difference",
+        "mechanical_power",
+        "overstrain_index"
+    ],
+    "categorical_features": [
+        "component_type"
+    ],
+    "transformed_feature_names": [
+        "air_temperature",
+        "process_temperature",
+        "rotational_speed",
+        "torque",
+        "tool_wear",
+        "temp_difference",
+        "mechanical_power",
+        "overstrain_index",
+        "component_type_L",
+        "component_type_M"
+    ],
+    "transformed_feature_count": 10,
+    "scaler": "RobustScaler (IQR-based centering and scaling)",
+    "encoder": "OneHotEncoder(drop='first')",
+    "target_column": "target",
+    "train_class_distribution": {
+        "passed_0": 7729,
+        "defective_1": 271,
+        "defect_rate_pct": 3.39
+    },
+    "test_class_distribution": {
+        "passed_0": 1932,
+        "defective_1": 68,
+        "defect_rate_pct": 3.4
+    },
+    "zero_data_leakage_guarantee": "Transformers fitted strictly on X_train. X_test transformed using train-fitted parameters.",
+    "preprocessor_artifact": "backend\\trained_models\\preprocessor.joblib"
+}

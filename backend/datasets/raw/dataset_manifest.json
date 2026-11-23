@@ -1,0 +1,40 @@
+{
+    "dataset_name": "AI4I 2020 Predictive Maintenance Dataset",
+    "source": "UCI Machine Learning Repository",
+    "source_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/00601/ai4i2020.csv",
+    "citation_doi": "https://doi.org/10.24432/C5HS5C",
+    "academic_reference": "Matzka, S. (2020). Explainable Artificial Intelligence for Predictive Maintenance Applications. Third International Conference on Artificial Intelligence for Industries (AI4I 2020), IEEE.",
+    "download_timestamp": "2026-11-19T14:45:36.798789+00:00",
+    "raw_file_name": "ai4i2020.csv",
+    "file_size_bytes": 522048,
+    "sha256_checksum": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+    "record_count": 10000,
+    "feature_count": 14,
+    "column_names": [
+        "UDI",
+        "Product ID",
+        "Type",
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]",
+        "Machine failure",
+        "TWF",
+        "HDF",
+        "PWF",
+        "OSF",
+        "RNF"
+    ],
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "domain": "Automotive / Mechanical Component Machining & Quality Inspection",
+    "target_column": "Machine failure",
+    "defect_categories": [
+        "TWF",
+        "HDF",
+        "PWF",
+        "OSF",
+        "RNF"
+    ],
+    "immutability_guarantee": "This raw file is permanently stored as downloaded and is never modified in place."
+}

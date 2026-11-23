@@ -1,0 +1,26 @@
+{
+    "model_name": "Multiclass Root-Cause Defect Classifier",
+    "model_version": "1.0.0",
+    "artifact_file": "multiclass_defect_classifier.joblib",
+    "accuracy": 0.947,
+    "classes": [
+        "Heat Dissipation Failure",
+        "Multi-mode Failure",
+        "No Defect",
+        "Overstrain Failure",
+        "Power Failure",
+        "Process Anomaly",
+        "Tool Wear Failure"
+    ],
+    "per_class_f1": {
+        "Heat Dissipation Failure": 0.931,
+        "Multi-mode Failure": 0.333,
+        "No Defect": 0.973,
+        "Overstrain Failure": 0.812,
+        "Power Failure": 0.923,
+        "Process Anomaly": 0.0,
+        "Tool Wear Failure": 0.102,
+        "macro avg": 0.582,
+        "weighted avg": 0.966
+    }
+}

@@ -1,0 +1,12 @@
+component_id,component_name,component_category,manufacturing_temperature,pressure,production_batch,inspection_result,notes
+CMP-ENG-701,Cast Iron Cylinder Liner,Engine,748.5,145.2,BATCH-2026-DEMO,Passed,Honing angle within 45-degree spec
+CMP-ENG-702,Cast Iron Cylinder Liner,Engine,751.2,146.0,BATCH-2026-DEMO,Passed,Dimensional tolerance verified
+CMP-TRN-801,Helical Planetary Pinion,Transmission,742.0,144.8,BATCH-2026-DEMO,Passed,Tooth contact pattern nominal
+CMP-TRN-802,Helical Planetary Pinion,Transmission,755.0,149.5,BATCH-2026-DEMO,Defective,Surface micro-pitting on gear tooth flank
+CMP-BRK-901,Ventilated Brake Rotor Disc,Braking System,740.1,143.0,BATCH-2026-DEMO,Passed,Runout < 0.03mm
+CMP-BRK-902,Ventilated Brake Rotor Disc,Braking System,739.5,142.5,BATCH-2026-DEMO,Passed,Dynamic balance within 5g-cm
+CMP-CHS-601,Forged Steel Steering Knuckle,Chassis & Steering,762.0,152.0,BATCH-2026-DEMO,Defective,Bore concentricity deviation > 0.08mm
+CMP-CHS-602,Forged Steel Steering Knuckle,Chassis & Steering,745.0,145.0,BATCH-2026-DEMO,Passed,Ball joint taper seat verified
+CMP-ELC-301,Wheel Speed Hall Effect Sensor,Electrical & Sensor,738.0,141.2,BATCH-2026-DEMO,Passed,Signal output frequency nominal
+CMP-BOD-401,Subframe Mounting Bracket,Body & Structural,744.0,144.0,BATCH-2026-DEMO,Passed,Weld bead penetration nominal
+
